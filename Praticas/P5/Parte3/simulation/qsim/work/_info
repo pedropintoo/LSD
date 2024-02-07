@@ -1,0 +1,248 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P5/Parte3/simulation/qsim
+Ehard_block
+Z1 w1678815073
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 28
+R0
+Z8 8TimerN_Demo.vho
+Z9 FTimerN_Demo.vho
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1678815074
+!i10b 1
+Z12 !s108 1678815074.000000
+Z13 !s90 -work|work|TimerN_Demo.vho|
+Z14 !s107 TimerN_Demo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 28
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Etimern
+Z17 w1678815613
+R3
+R7
+R2
+Z18 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R4
+R5
+R6
+Z19 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 34
+R0
+R8
+R9
+l0
+L37 1
+VGV8=P9M;ON0aUGkbeGPIY0
+!s100 3k8P0>M>nTmln]>I[AY9:2
+R10
+32
+Z20 !s110 1678815614
+!i10b 1
+Z21 !s108 1678815614.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 6 timern 0 22 GV8=P9M;ON0aUGkbeGPIY0
+!i122 34
+l148
+L47 1433
+VWF_OYA1;LRKIddVf_`TH[2
+!s100 [hHm:af7kIc4AH15WcFMG3
+R10
+32
+R20
+!i10b 1
+R21
+R13
+R14
+!i113 1
+R15
+R16
+Etimern_demo
+R1
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+!i122 28
+R0
+R8
+R9
+l0
+L80 1
+V2>iQ;PaGlD020k^AX`kEh1
+!s100 De<T8CZQegBd8[gZ4iLCm0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 11 timern_demo 0 22 2>iQ;PaGlD020k^AX`kEh1
+!i122 28
+l209
+L96 1645
+VWXFVnK:bjzOG9Wh8791A<3
+!s100 8ebiXHLJlLB]]1jeaoOEY3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Etimern_demo_vhd_vec_tst
+Z22 w1678815072
+R5
+R6
+!i122 29
+R0
+Z23 8TimerN.vwf.vht
+Z24 FTimerN.vwf.vht
+l0
+Z25 L32 1
+V<@4I`cdfD40kQCK6BWg142
+!s100 3YZCR;aEj;bKDhH?OmGTW0
+R10
+32
+R11
+!i10b 1
+R12
+Z26 !s90 -work|work|TimerN.vwf.vht|
+Z27 !s107 TimerN.vwf.vht|
+!i113 1
+R15
+R16
+Atimern_demo_arch
+R5
+R6
+DEx4 work 23 timern_demo_vhd_vec_tst 0 22 <@4I`cdfD40kQCK6BWg142
+!i122 29
+l47
+L34 22
+V9ZQXT?]bkWDgZ:TCAW3LX0
+!s100 h`m6j]TOJ@PEdW8bgGUFZ1
+R10
+32
+R11
+!i10b 1
+R12
+R26
+R27
+!i113 1
+R15
+R16
+Etimern_vhd_vec_tst
+Z28 w1678815612
+R5
+R6
+!i122 35
+R0
+R23
+R24
+l0
+R25
+VUEfneR=TC6:]_fdR9Y>B40
+!s100 Tzj4F=[OKR53c8dO3KAMA3
+R10
+32
+R20
+!i10b 1
+R21
+R26
+R27
+!i113 1
+R15
+R16
+Atimern_arch
+R5
+R6
+Z29 DEx4 work 18 timern_vhd_vec_tst 0 22 UEfneR=TC6:]_fdR9Y>B40
+!i122 35
+l51
+Z30 L34 73
+Z31 V;_9<`JbVi?g2nj[:nR1kM0
+Z32 !s100 b[iT2Bnl;z;]?9J]IIRi13
+R10
+32
+R20
+!i10b 1
+R21
+R26
+R27
+!i113 1
+R15
+R16

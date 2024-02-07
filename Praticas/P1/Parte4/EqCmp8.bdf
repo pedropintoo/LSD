@@ -1,0 +1,14 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+ENTITY EqCmp8 IS
+	PORT (
+		input0 : IN std_logic_vector(7 DOWNTO 0);
+		input1 : IN std_logic_vector(7 DOWNTO 0);
+		cmpOut : OUT std_logic
+	);
+END EqCmp8;
+ARCHITECTURE Behavioral OF EqCmp8 IS
+BEGIN
+	cmpOut <= '1' WHEN (input0 = input1) ELSE
+	          '0';
+END Behavioral;

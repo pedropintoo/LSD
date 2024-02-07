@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/TP2/Parte2/Mux2_1.vhd
+source_file = 1, c:/quartu_prime_lite/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/quartu_prime_lite/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/quartu_prime_lite/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/quartu_prime_lite/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/TP2/Parte2/db/Mux2_1Demo.cbx.xml
+design_name = Mux2_1
+instance = comp, \dataOut~output\, dataOut~output, Mux2_1, 1
+instance = comp, \dataIn1~input\, dataIn1~input, Mux2_1, 1
+instance = comp, \dataIn0~input\, dataIn0~input, Mux2_1, 1
+instance = comp, \sel~input\, sel~input, Mux2_1, 1
+instance = comp, \dataOut~0\, dataOut~0, Mux2_1, 1

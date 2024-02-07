@@ -1,0 +1,12 @@
+|LatchD_Demo
+KEY[0] => latchd:latchD.enable
+SW[0] => latchd:latchD.d
+LEDR[0] << latchd:latchD.q
+
+
+|LatchD_Demo|LatchD:latchD
+enable => q$latch.LATCH_ENABLE
+d => q$latch.DATAIN
+q <= q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

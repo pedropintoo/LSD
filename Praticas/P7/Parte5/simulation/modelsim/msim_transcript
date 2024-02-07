@@ -1,0 +1,52 @@
+# Reading pref.tcl
+# do TimerTest_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Quartu_Prime_Lite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P7/Parte5/TimerTest.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:04:44 on Mar 28,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P7/Parte5/TimerTest.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TimerTest
+# -- Compiling architecture Behavioral of TimerTest
+# ** Error: (vcom-11) Could not find work.timern.
+# ** Error (suppressible): C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P7/Parte5/TimerTest.vhd(14): (vcom-1195) Cannot find expanded name "work.TimerN".
+# ** Error: C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P7/Parte5/TimerTest.vhd(14): Unknown expanded name.
+# ** Note: C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P7/Parte5/TimerTest.vhd(22): VHDL Compiler exiting
+# End time: 18:04:44 on Mar 28,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Quartu_Prime_Lite/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./TimerTest_run_msim_rtl_vhdl.do line 8
+# C:/Quartu_Prime_Lite/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P7/Parte5/TimerTest.vhd}"
+vcom -reportprogress 300 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P7/Parte5/simulation/modelsim/TimerTest.vho}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:05:04 on Mar 28,2023
+# vcom -reportprogress 300 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P7/Parte5/simulation/modelsim/TimerTest.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity TimerTest
+# -- Compiling architecture structure of TimerTest
+# End time: 18:05:04 on Mar 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

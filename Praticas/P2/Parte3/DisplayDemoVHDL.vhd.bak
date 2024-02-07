@@ -1,0 +1,20 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY DisplayDemo IS
+	PORT( KEY  : IN std_logic;
+			SW   : IN std_logic_vector(3 DOWNTO 0);
+			HEX0, LEDR : OUT std_logic_vector(6 DOWNTO 0);
+			LEDG : OUT std_logic_vector(3 DOWNTO 0)
+			);
+END ENTITY DisplayDemo;
+
+ARCHITECTURE Structural OF DisplayDemo IS
+BEGIN
+	U1 : ENTITY work.Bin7SegDecoder(Behavioral) PORT MAP( enable => KEY,
+																			binInput => SW,
+																			HEX0 => decOut_n);
+																			
+
+
+END ARCHITECTURE Structural;   

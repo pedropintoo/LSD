@@ -1,0 +1,12 @@
+|EqCmp4
+cmpOut <= AND4.DB_MAX_OUTPUT_PORT_TYPE
+input1[0] => XNOR_0.IN0
+input1[1] => XNOR_1.IN0
+input1[2] => XNOR_2.IN0
+input1[3] => XNOR_3.IN0
+input0[0] => XNOR_0.IN1
+input0[1] => XNOR_1.IN1
+input0[2] => XNOR_2.IN1
+input0[3] => XNOR_3.IN1
+
+

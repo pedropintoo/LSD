@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/TP1/simulation/qsim
+vGateDemo
+!s110 1676285059
+!i10b 1
+!s100 CfY7mC9OdHE`jJ2FQ;kh>2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1kX`aanNAY>h4iCWGH6DN3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1676285058
+8GateDemo.vo
+FGateDemo.vo
+!i122 0
+L0 32 72
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1676285059.000000
+!s107 GateDemo.vo|
+!s90 -work|work|GateDemo.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@gate@demo
+vGateDemo_vlg_vec_tst
+!s110 1676285060
+!i10b 1
+!s100 fFNC?DRDd`dG=efB>lb^I3
+R1
+IZ>dXK;Hb5`hAZ<CR[fPAV1
+R2
+R0
+R3
+8GateDemo.vwf.vt
+FGateDemo.vwf.vt
+!i122 1
+L0 30 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 GateDemo.vwf.vt|
+!s90 -work|work|GateDemo.vwf.vt|
+!i113 1
+R6
+R7
+n@gate@demo_vlg_vec_tst

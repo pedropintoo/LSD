@@ -1,0 +1,85 @@
+# Reading pref.tcl
+# do DrinksMachine_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Quartu_Prime_Lite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/DebounceUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:21 on May 22,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/DebounceUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DebounceUnit
+# -- Compiling architecture Behavioral of DebounceUnit
+# End time: 22:57:21 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P3/Parte4/Bin7SegDecoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:21 on May 22,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P3/Parte4/Bin7SegDecoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bin7SegDecoder
+# -- Compiling architecture Behavioral of Bin7SegDecoder
+# End time: 22:57:22 on May 22,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/ClkDividerN.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:22 on May 22,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/ClkDividerN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ClkDividerN
+# -- Compiling architecture Behavioral of ClkDividerN
+# End time: 22:57:22 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksFSM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:22 on May 22,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksFSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DrinksFSM
+# -- Compiling architecture Behavioral of DrinksFSM
+# End time: 22:57:22 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:22 on May 22,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DrinksMachine
+# -- Compiling architecture Shell of DrinksMachine
+# -- Loading package NUMERIC_STD
+# -- Loading entity ClkDividerN
+# -- Loading entity DebounceUnit
+# -- Loading entity DrinksFSM
+# ** Error: C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd(45): (vcom-1436) Actual expression (prefix expression) of formal "reset" is not globally static.
+# -- Loading entity Bin7SegDecoder
+# ** Error: (vcom-11) Could not find work.holdabrir.
+# ** Error (suppressible): C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd(58): (vcom-1195) Cannot find expanded name "work.HoldAbrir".
+# ** Error: C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd(58): Unknown expanded name.
+# ** Note: C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd(65): VHDL Compiler exiting
+# End time: 22:57:22 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/Quartu_Prime_Lite/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./DrinksMachine_run_msim_rtl_vhdl.do line 12
+# C:/Quartu_Prime_Lite/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd}"

@@ -1,0 +1,203 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/simulation/modelsim
+Ebin7segdecoder
+Z1 w1677606428
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P3/Parte4/Bin7SegDecoder.vhd
+Z5 FC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P3/Parte4/Bin7SegDecoder.vhd
+l0
+L4 1
+VH_9nXKi`HmQIDUi3e2kYQ2
+!s100 L:QLXbWhZYSLA>QeATWTo2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1684792642
+!i10b 1
+Z8 !s108 1684792641.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P3/Parte4/Bin7SegDecoder.vhd|
+Z10 !s107 C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P3/Parte4/Bin7SegDecoder.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 14 bin7segdecoder 0 22 H_9nXKi`HmQIDUi3e2kYQ2
+!i122 1
+l12
+L11 23
+V=GjjTbYFCg7[4a<CUNc4Q0
+!s100 WX2mbb=HOo0U_nSWPn6>Q0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eclkdividern
+Z13 w1680696159
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 2
+R0
+Z15 8C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/ClkDividerN.vhd
+Z16 FC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/ClkDividerN.vhd
+l0
+L5 1
+V=zdHDdQFUSdLm6NMdOoDT3
+!s100 OFzRBFDQBzZBdALS]MEnX1
+R6
+31
+R7
+!i10b 1
+Z17 !s108 1684792642.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/ClkDividerN.vhd|
+Z19 !s107 C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/ClkDividerN.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 11 clkdividern 0 22 =zdHDdQFUSdLm6NMdOoDT3
+!i122 2
+l17
+L11 31
+VgaV^6?OO[?@I6O<Z]5eaO1
+!s100 a[dmaBV[f3TPmFaGf<1?m0
+R6
+31
+R7
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Edebounceunit
+Z20 w1680696175
+R14
+R2
+R3
+!i122 0
+R0
+Z21 8C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/DebounceUnit.vhd
+Z22 FC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/DebounceUnit.vhd
+l0
+L5 1
+VgHK[fX_44kCXFcGM]Db092
+!s100 Cg<VSR:RhQRLYFdR<K]c]3
+R6
+31
+Z23 !s110 1684792641
+!i10b 1
+R8
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/DebounceUnit.vhd|
+Z25 !s107 C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte1/DebounceUnit.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 12 debounceunit 0 22 gHK[fX_44kCXFcGM]Db092
+!i122 0
+l23
+L15 50
+VbGWBK2]=cTnU3N4NdJKi:2
+!s100 RSdLcgKmL[]:O8ck9dCoI3
+R6
+31
+R23
+!i10b 1
+R8
+R24
+R25
+!i113 1
+R11
+R12
+Edrinksfsm
+Z26 w1680737282
+R14
+R2
+R3
+!i122 3
+R0
+Z27 8C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksFSM.vhd
+Z28 FC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksFSM.vhd
+l0
+L5 1
+VRnGToAH`iF0SPWPZH^V>K0
+!s100 82dj4>EXK=Y8Mh7INlHX93
+R6
+31
+R7
+!i10b 1
+R17
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksFSM.vhd|
+Z30 !s107 C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksFSM.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 9 drinksfsm 0 22 RnGToAH`iF0SPWPZH^V>K0
+!i122 3
+l19
+L14 86
+V]XQ?Y9N6nFLJh^WH;hA]30
+!s100 EZegF_eeKN8a=]STPnS3S2
+R6
+31
+R7
+!i10b 1
+R17
+R29
+R30
+!i113 1
+R11
+R12
+Edrinksmachine
+w1680739762
+R2
+R3
+!i122 4
+R0
+8C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd
+FC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd
+l0
+L4 1
+VbWAhi4XD^X<W63VIjNfGk1
+!s100 bSTX[=LYV6Z@>624NFHQQ1
+R6
+31
+R7
+!i10b 1
+R17
+!s90 -reportprogress|300|-93|-work|work|C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd|
+!s107 C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P8/Parte2/DrinksMachine.vhd|
+!i113 1
+R11
+R12

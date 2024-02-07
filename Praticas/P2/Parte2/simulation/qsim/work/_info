@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/TP2/Parte2/simulation/qsim
+Emux2_1
+Z1 w1677016440
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 0
+R0
+Z8 8Mux2_1Demo.vho
+Z9 FMux2_1Demo.vho
+l0
+L35 1
+VOkPzJo6OTS9PO^7`0CSmO1
+!s100 Dg]8[C1=DkggDm[POc?0g3
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1677016441
+!i10b 1
+Z12 !s108 1677016441.000000
+Z13 !s90 -work|work|Mux2_1Demo.vho|
+Z14 !s107 Mux2_1Demo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 6 mux2_1 0 22 OkPzJo6OTS9PO^7`0CSmO1
+!i122 0
+l64
+L44 88
+V:?JTV4P_7l[9=aT^_ab0k1
+!s100 9^^faVhcVFAl]dFO7Of]A0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emux2_1_vhd_vec_tst
+R1
+R5
+R6
+!i122 1
+R0
+Z17 8Mux2_1.vwf.vht
+Z18 FMux2_1.vwf.vht
+l0
+L32 1
+V[ORYg62AM_BILSVA?UIV<3
+!s100 W1o]ga;bSNYF[;7Nj6K:?1
+R10
+32
+R11
+!i10b 1
+R12
+Z19 !s90 -work|work|Mux2_1.vwf.vht|
+!s107 Mux2_1.vwf.vht|
+!i113 1
+R15
+R16
+Amux2_1_arch
+R5
+R6
+DEx4 work 18 mux2_1_vhd_vec_tst 0 22 [ORYg62AM_BILSVA?UIV<3
+!i122 1
+l49
+L34 63
+V=9a1N0@2?=C[]enT_H7Bm3
+!s100 X9zl15aik<R`zkKfR=2IO1
+R10
+32
+R11
+!i10b 1
+R12
+R19
+Z20 !s107 Mux2_1.vwf.vht|
+!i113 1
+R15
+R16

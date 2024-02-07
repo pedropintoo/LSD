@@ -1,0 +1,9 @@
+
+State Machine - |DrinksMachineV2|DrinksFSM:fsm|fstate
+Name fstate.E5 fstate.E4 fstate.E3 fstate.E2 fstate.E1 fstate.E0 
+fstate.E0 0 0 0 0 0 0 
+fstate.E1 0 0 0 0 1 1 
+fstate.E2 0 0 0 1 0 1 
+fstate.E3 0 0 1 0 0 1 
+fstate.E4 0 1 0 0 0 1 
+fstate.E5 1 0 0 0 0 1 

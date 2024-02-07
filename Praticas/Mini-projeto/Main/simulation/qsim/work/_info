@@ -1,0 +1,248 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/Mini-projeto/115304/simulation/qsim
+Ehard_block
+Z1 w1681837469
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 78
+R0
+Z8 8TimerDemo.vho
+Z9 FTimerDemo.vho
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1681837470
+!i10b 1
+Z12 !s108 1681837470.000000
+Z13 !s90 -work|work|TimerDemo.vho|
+Z14 !s107 TimerDemo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 78
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Etimer
+Z17 w1681839502
+R3
+R7
+R2
+Z18 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R4
+R5
+R6
+Z19 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 96
+R0
+R8
+R9
+l0
+L37 1
+V:k;Kd;Qcz=`;:d]_cR_X42
+!s100 @gG@[11dHV2KY1?dLC7o20
+R10
+32
+Z20 !s110 1681839503
+!i10b 1
+Z21 !s108 1681839503.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 5 timer 0 22 :k;Kd;Qcz=`;:d]_cR_X42
+!i122 96
+l103
+L49 550
+Vn_f3_QkZ_iEBEOHL>1SF?1
+!s100 X2]XIVPJ<HHY`<MK0l6A62
+R10
+32
+R20
+!i10b 1
+R21
+R13
+R14
+!i113 1
+R15
+R16
+Etimer_vhd_vec_tst
+Z22 w1681839501
+R5
+R6
+!i122 97
+R0
+Z23 8Timer.vwf.vht
+Z24 FTimer.vwf.vht
+l0
+Z25 L32 1
+VYNc9HKjTh4TAFlmL>7Eb62
+!s100 P3OcdVD?`_^edgf[E8Fc;2
+R10
+32
+R20
+!i10b 1
+R21
+Z26 !s90 -work|work|Timer.vwf.vht|
+Z27 !s107 Timer.vwf.vht|
+!i113 1
+R15
+R16
+Atimer_arch
+R5
+R6
+Z28 DEx4 work 17 timer_vhd_vec_tst 0 22 YNc9HKjTh4TAFlmL>7Eb62
+!i122 97
+l55
+Z29 L34 85
+V]I<cObUkA4[Edn63k39mY1
+!s100 m_gC0=6XCMm^b:gK6EIbJ2
+R10
+32
+R20
+!i10b 1
+R21
+R26
+R27
+!i113 1
+R15
+R16
+Etimerdemo
+R1
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+!i122 78
+R0
+R8
+R9
+l0
+L80 1
+VGJ13kRJV1ZCiOF46:n_jm0
+!s100 MGdLo[W74@0PX]?E5:ST?2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 9 timerdemo 0 22 GJ13kRJV1ZCiOF46:n_jm0
+!i122 78
+l500
+L113 5954
+VGZF^RCS9_Gm4G[JKz7D?]2
+!s100 eUQ5WX0e8`g`<GI7Jf<1z3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Etimerdemo_vhd_vec_tst
+Z30 w1681837468
+R5
+R6
+!i122 79
+R0
+R23
+R24
+l0
+R25
+VQHGjG6bkz^7W_6hEW?^0]0
+!s100 c9njAgNb>Wz3?BUDU302V1
+R10
+32
+R11
+!i10b 1
+R12
+R26
+R27
+!i113 1
+R15
+R16
+Atimerdemo_arch
+R5
+R6
+DEx4 work 21 timerdemo_vhd_vec_tst 0 22 QHGjG6bkz^7W_6hEW?^0]0
+!i122 79
+l53
+L34 31
+V<?Mio^h116iVi8Td4@Xhg0
+!s100 d?O>hDhCB[[m4nK=a0;SR0
+R10
+32
+R11
+!i10b 1
+R12
+R26
+R27
+!i113 1
+R15
+R16

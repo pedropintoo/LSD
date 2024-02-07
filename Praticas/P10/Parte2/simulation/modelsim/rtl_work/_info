@@ -1,0 +1,98 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/simulation/modelsim
+Eram_1p_16_8
+Z1 w1683624715
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8.vhd
+Z6 FC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8.vhd
+l0
+L5 1
+Vh2>b?6Sl3@Xz0EfgmBR913
+!s100 C`1`;_X1oj<bSh<YD?e^?1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1683625121
+!i10b 1
+Z9 !s108 1683625121.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8.vhd|
+Z11 !s107 C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 11 ram_1p_16_8 0 22 h2>b?6Sl3@Xz0EfgmBR913
+!i122 0
+l17
+L13 14
+VG`GKf?iWkC]D0?7S5D7F^3
+!s100 SDK4hkk39;8ZOOE0Z9?4a2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eram_1p_16_8_tb
+Z15 w1683625149
+R2
+R3
+R4
+!i122 3
+R0
+Z16 8C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd
+Z17 FC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd
+l0
+L5 1
+V=o;21h0cXNR:j=i33G75;0
+!s100 mKNEX;B4bo`Fi34]VT<5@3
+R7
+32
+Z18 !s110 1683625157
+!i10b 1
+Z19 !s108 1683625157.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd|
+Z21 !s107 C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd|
+!i113 1
+Z22 o-work work
+R13
+Astimulus
+R14
+R2
+R3
+R4
+Z23 DEx4 work 14 ram_1p_16_8_tb 0 22 =o;21h0cXNR:j=i33G75;0
+!i122 3
+l14
+Z24 L8 54
+Z25 V0I[BR>60DoCjk?m2hRG[W1
+Z26 !s100 L3=E@aNKRFPQ9RbYG42z;2
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R22
+R13

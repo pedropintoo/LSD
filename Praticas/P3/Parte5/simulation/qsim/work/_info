@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P3/Parte5/simulation/qsim
+Ebin2bcdsigned
+Z1 w1677625469
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 4
+R0
+Z8 8ALUDemo.vho
+Z9 FALUDemo.vho
+l0
+L35 1
+VANELM2@D1NlYdbg`F`Y`n3
+!s100 BZb`MSbD4;;5hM7V;_0eV1
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1677625470
+!i10b 1
+Z12 !s108 1677625470.000000
+Z13 !s90 -work|work|ALUDemo.vho|
+Z14 !s107 ALUDemo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 13 bin2bcdsigned 0 22 ANELM2@D1NlYdbg`F`Y`n3
+!i122 4
+l2262
+L45 30119
+Vi?Zl^nzk3iYO5LZk?l1hL3
+!s100 D7hZEn`j:LbceFb0=4Ljm1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ebin2bcdsigned_vhd_vec_tst
+Z17 w1677625468
+R5
+R6
+!i122 5
+R0
+Z18 8Bin2BCDSigned.vwf.vht
+Z19 FBin2BCDSigned.vwf.vht
+l0
+L32 1
+VSX[E65ELE86>aBDQI74co0
+!s100 hC_a98hzd6kMYd@lPa=Sc3
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Bin2BCDSigned.vwf.vht|
+Z21 !s107 Bin2BCDSigned.vwf.vht|
+!i113 1
+R15
+R16
+Abin2bcdsigned_arch
+R5
+R6
+Z22 DEx4 work 25 bin2bcdsigned_vhd_vec_tst 0 22 SX[E65ELE86>aBDQI74co0
+!i122 5
+l51
+L34 293
+VZk`1L;VYaeXNEAjz1U@Gm3
+!s100 8STFKMXT8Z`SD__UhZ9De0
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16

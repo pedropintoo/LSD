@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/TP2/Parte4/simulation/qsim
+Epenc4_2
+Z1 w1677354311
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 0
+R0
+Z8 8PEnc4_2Demo.vho
+Z9 FPEnc4_2Demo.vho
+l0
+L35 1
+VC>Lk>AKE<lZbUgz=ln=Sg1
+!s100 3gjJZO:D_WB;::X;h`MDn2
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1677354313
+!i10b 1
+Z12 !s108 1677354312.000000
+Z13 !s90 -work|work|PEnc4_2Demo.vho|
+Z14 !s107 PEnc4_2Demo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 7 penc4_2 0 22 C>Lk>AKE<lZbUgz=ln=Sg1
+!i122 0
+l70
+L43 191
+VbVGEK<A_@2]]o^Ka0oG:X0
+!s100 0^<GkH7:oOcz0`>mLl0>;3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Epenc4_2_vhd_vec_tst
+R1
+R5
+R6
+!i122 1
+R0
+Z17 8PEnc4_2.vwf.vht
+Z18 FPEnc4_2.vwf.vht
+l0
+L32 1
+VF1B9aLh@XS]jNbCPXWDKC3
+!s100 T4L>mF222jV0k3SHnoKY`2
+R10
+32
+R11
+!i10b 1
+Z19 !s108 1677354313.000000
+Z20 !s90 -work|work|PEnc4_2.vwf.vht|
+!s107 PEnc4_2.vwf.vht|
+!i113 1
+R15
+R16
+Apenc4_2_arch
+R5
+R6
+DEx4 work 19 penc4_2_vhd_vec_tst 0 22 F1B9aLh@XS]jNbCPXWDKC3
+!i122 1
+l47
+L34 73
+VhzLXD7<K:m?REHBcoVm3B0
+!s100 dDTa<=e[o?XjA[ZX3?;Qz2
+R10
+32
+R11
+!i10b 1
+R19
+R20
+Z21 !s107 PEnc4_2.vwf.vht|
+!i113 1
+R15
+R16

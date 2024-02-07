@@ -1,0 +1,86 @@
+# Reading pref.tcl
+# do RAM_1P_Demo_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Quartu_Prime_Lite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:38:41 on May 09,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM_1P_16_8
+# -- Compiling architecture Behavioral of RAM_1P_16_8
+# End time: 10:38:41 on May 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:38:51 on May 09,2023
+# vcom -reportprogress 300 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM_1P_16_8_Tb
+# -- Compiling architecture Stimulus of RAM_1P_16_8_Tb
+# -- Loading entity RAM_1P_16_8
+# ** Error (suppressible): C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd(43): (vcom-1272) Length of expected is 4; length of actual is 5.
+# ** Note: C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd(61): VHDL Compiler exiting
+# End time: 10:38:51 on May 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:39:14 on May 09,2023
+# vcom -reportprogress 300 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM_1P_16_8_Tb
+# -- Compiling architecture Stimulus of RAM_1P_16_8_Tb
+# -- Loading entity RAM_1P_16_8
+# End time: 10:39:14 on May 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:39:17 on May 09,2023
+# vcom -reportprogress 300 -work work C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/2semestre/LSD/P/P10/Parte2/RAM_1P_16_8_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM_1P_16_8_Tb
+# -- Compiling architecture Stimulus of RAM_1P_16_8_Tb
+# -- Loading entity RAM_1P_16_8
+# End time: 10:39:17 on May 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ram_1p_16_8_tb(stimulus)
+# vsim work.ram_1p_16_8_tb(stimulus) 
+# Start time: 10:39:20 on May 09,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_1p_16_8_tb(stimulus)
+# Loading work.ram_1p_16_8(behavioral)
+add wave -position end  sim:/ram_1p_16_8_tb/s_clk
+add wave -position end  sim:/ram_1p_16_8_tb/s_writeEnable
+add wave -position end  sim:/ram_1p_16_8_tb/s_writeData
+add wave -position end  sim:/ram_1p_16_8_tb/s_address
+add wave -position end  sim:/ram_1p_16_8_tb/s_readData
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ram_1p_16_8_tb/ram_ut
+# image file format "bmp" is unknown
+# End time: 10:41:14 on May 09,2023, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 1

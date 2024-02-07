@@ -1,0 +1,17 @@
+|NANDGate
+LEDG[0] <= NOTGate:not.outPort
+SW[0] => AND2Gate:and2_1.inPort0
+SW[1] => AND2Gate:and2_1.inPort1
+
+
+|NANDGate|NOTGate:not
+inPort => outPort.DATAIN
+outPort <= inPort.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NANDGate|AND2Gate:and2_1
+inPort0 => outPort.IN0
+inPort1 => outPort.IN1
+outPort <= outPort.DB_MAX_OUTPUT_PORT_TYPE
+
+

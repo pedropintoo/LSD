@@ -1,0 +1,10 @@
+Resolver problemas com USB-BLASTER:
+
+1) Gestor de dispositivos
+2) USB-BLASTER --> Atualizar controlador
+3) Procurar controlador no computador
+4) "C:\Quartu_Prime_Lite\quartus\drivers"
+
+Nota: Em caso de dar erro a instalar a drive tem de se desativar a "driver signature enforcement"
+-https://www.youtube.com/watch?v=6RZxsvNNGEY&t=43s	
+-https://www.youtube.com/watch?v=C9M2l5vp5co

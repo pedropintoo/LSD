@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Mar 28 18:10:14 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : TimerTest
+Top-level Entity Name : TimerTest
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 732 / 114,480 ( < 1 % )
+    Total combinational functions : 543 / 114,480 ( < 1 % )
+    Dedicated logic registers : 536 / 114,480 ( < 1 % )
+Total registers : 536
+Total pins : 5 / 529 ( < 1 % )
+Total virtual pins : 0
+Total memory bits : 16,384 / 3,981,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
